@@ -7,7 +7,7 @@ try {
     //   with the following sample content
      
       $message = [
-        "secret" => "Webhook secret pass",
+        "secret" => "f50f6f32ff605baf44483fcecceaba83fc3f9362",
         "name" => "Contact name, false if unknown",
         "phone" => "Contact number, E164 format",
         "message" => "Message content here",
