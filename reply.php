@@ -26,7 +26,7 @@ try {
     	// Verified, reply to phone number using the API send endpoint
     	// Read the API guide for more info
 
-        echo $message;
+        echo $message["message"];
     else:
     	// Message not verified, ignore or log
         echo 'Error code: 600';
