@@ -34,5 +34,7 @@ try {
 } catch (Exception $e) {
     // Something went wrong
 }
+?>
 
+<h1><?php echo $message;?></h1>
 
